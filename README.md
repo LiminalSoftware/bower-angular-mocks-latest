@@ -1,4 +1,4 @@
 bower-angular-mocks
 ===================
 
-angular-mocks.js bower repo
+Temp repo to allow easy Bower install of not-yet-released angular-mocks version that allows use with Mocha.
