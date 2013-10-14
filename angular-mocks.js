@@ -1696,7 +1696,7 @@ window.jstestdriver && (function(window) {
    *        aliases or as anonymous module initialization functions. The modules are used to
    *        configure the injector. The 'ng' and 'ngMock' modules are automatically loaded.
    */
-  window.module = angular.mock.module = function() {
+  angular.mock.module = function() {
     var moduleFns = Array.prototype.slice.call(arguments, 0);
     return isSpecRunning() ? workFn() : workFn;
     /////////////////////
